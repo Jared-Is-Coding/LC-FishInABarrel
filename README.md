@@ -22,14 +22,16 @@ A Lethal Company mod for hide and seek! Remove enemies, infinite sprint, infinit
 ## Suggested Hide N Seek Rules
 
 ### Hiders
-- Hiders are given until 10am to hide *within* the facility or building
-- Hiders must enter through the main entrance
+- Hiders are given until 10am to hide *within* the facility
+- Hiders must enter through the main entrance or reverse teleporter
 - Hiders may not exit the building after entering
 - Hiders may not use flashlights
 - Hiders may tinker with the facility by disabling light panels or removing the apparatus
 
 ### Seeker(s)
+- Seekers may not enter the facility until 10am
 - Seekers may optionally carry a flashlight or boombox in their dedicated item slots
+- Seekers may not use the ship monitor to find hiders
 
 ### Gameplay
 - As a seeker, if you kill all hiders you receive a point.
