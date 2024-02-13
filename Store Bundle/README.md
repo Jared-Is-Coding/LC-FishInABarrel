@@ -6,8 +6,8 @@
 A Lethal Company mod for hide and seek! Remove enemies, infinite sprint, infinite ammo, clock display, and more.
 
 ## Gameplay Modifications
+
 - Order yourself a shotgun in the terminal and take on the role of the seeker. *It's like fish in a barrel!*
-- All interior enemies removed
 - Time of Day clock always visible
 - Inverse teleporter is on the ship at the beginning of the game
 - Remove inverse teleporter cooldown
@@ -31,9 +31,8 @@ Here's an r2modman profile code for your convenience, if you prefer: `018da345-2
 
 ## Suggested Hide N Seek Rules
 
-- Hiders are given until 10am to hide *within* the facility
-
 ### Hiders
+- Hiders are given until 10am to hide *within* the facility
 - Hiders must enter through the main entrance or inverse teleporter
 - Hiders must not exit the facility after entering
 - Hiders can optionally tinker with the facility by disabling light panels or removing the apparatus
@@ -46,8 +45,13 @@ Here's an r2modman profile code for your convenience, if you prefer: `018da345-2
 - Seekers must only enter the facility through the main entrance
 - Seekers can optionally carry a flashlight or boombox in their dedicated item slots
 
-### Gameplay
+### Gameplay and Winning
 - As a seeker, if you kill all hiders you receive a point.
 - When one hider is left, the deceased hiders must vote for the ship to leave. If the remaining hider survives until the ship has left, they receive a point.
 - In the event the seeker dies, all remaining hiders receive a point.
 - Play as many rounds as you like. The employee with the most points at the end is the winner.
+
+## To-Do
+
+- Add built in points tracking
+- Add overlay for points display
