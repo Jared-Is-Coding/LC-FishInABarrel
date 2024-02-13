@@ -16,13 +16,12 @@ A Lethal Company mod for hide and seek! Remove enemies, infinite sprint, infinit
 
 ## Recommended Additional Mods
 
-Here's an r2modman profile code for your convenience, if you prefer: `018da313-2904-238b-b526-30902260bf9b`
+Here's an r2modman profile code for your convenience, if you prefer: `018da321-3ed0-511c-5d29-dd32bf9f487a`
 
-- [LethalThings](https://thunderstore.io/c/lethal-company/p/Evaisa/LethalThings/)
-- [HealthMetrics](https://thunderstore.io/c/lethal-company/p/matsuura/HealthMetrics/)
-- [FasterItemDropship](https://thunderstore.io/c/lethal-company/p/FlipMods/FasterItemDropship/)
-- [ReservedFlashlightSlot](https://thunderstore.io/c/lethal-company/p/FlipMods/ReservedFlashlightSlot/)
-- [LuckReservedBoombox](https://thunderstore.io/c/lethal-company/p/Luck/LuckReservedBoombox/)
+- [LethalThings](https://thunderstore.io/c/lethal-company/p/Evaisa/LethalThings/) - Adds teleporters in the facility!
+- [FasterItemDropship](https://thunderstore.io/c/lethal-company/p/FlipMods/FasterItemDropship/) - Get your seeking shotgun faster!
+- [MoreCompany](https://thunderstore.io/c/lethal-company/p/notnotnotswipez/MoreCompany/) - Put more fish in the barrel!
+- [LateCompany](https://thunderstore.io/c/lethal-company/p/anormaltwig/LateCompany/) - Allow players to join late!
 
 ## Suggested Hide N Seek Rules
 
@@ -36,8 +35,9 @@ Here's an r2modman profile code for your convenience, if you prefer: `018da313-2
 
 ### Seeker(s)
 - Seekers may not enter the facility until 10am
-- Seekers may optionally carry a flashlight or boombox in their dedicated item slots
 - Seekers may not use the ship monitor to find hiders
+- Seekers must enter the facility through the main entrance
+- Seekers may optionally carry a flashlight or boombox in their dedicated item slots
 
 ### Gameplay
 - As a seeker, if you kill all hiders you receive a point.
