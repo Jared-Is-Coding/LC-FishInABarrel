@@ -3,6 +3,10 @@
     <PropertyGroup>
         <TargetFramework>netstandard2.1</TargetFramework>
     </PropertyGroup>
+	
+    <ItemGroup>
+      <None Include="..\.editorconfig" Link=".editorconfig" />
+    </ItemGroup>
 
     <ItemGroup>
         <Reference Include="0Harmony">
@@ -20,6 +24,9 @@
         <Reference Include="Unity.Netcode.Runtime">
             <HintPath>%GAME_LOCATION%\Lethal Company_Data\Managed\Unity.Netcode.Runtime.dll</HintPath>
         </Reference>
+        <Reference Include="Unity.TextMeshPro">
+          <HintPath>...\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
+        </Reference>
         <Reference Include="UnityEngine">
             <HintPath>%GAME_LOCATION%\Lethal Company_Data\Managed\UnityEngine.dll</HintPath>
         </Reference>
@@ -34,6 +41,9 @@
         </Reference>
         <Reference Include="UnityEngine.CoreModule">
             <HintPath>%GAME_LOCATION%\Lethal Company_Data\Managed\UnityEngine.CoreModule.dll</HintPath>
+        </Reference>
+        <Reference Include="UnityEngine.PhysicsModule">
+          <HintPath>C:\Program Files\Unity 2022.3.9f1\Editor\Data\Managed\UnityEngine\UnityEngine.PhysicsModule.dll</HintPath>
         </Reference>
     </ItemGroup>
 
