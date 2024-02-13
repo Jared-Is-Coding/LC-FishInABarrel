@@ -8,12 +8,17 @@ A Lethal Company mod for hide and seek! Remove enemies, infinite sprint, infinit
 ## Gameplay Modifications
 - Order yourself a shotgun in the terminal and take on the role of the seeker. *It's like fish in a barrel!*
 - All interior enemies removed
+- Remove inverse teleporter cooldown
 - Infinite quota deadline
 - Infinite sprinting
 - Infinite shotgun ammo
 - Time of Day clock always visible
 
 ## Recommended Additional Mods
+
+Here's an r2modman profile code for your convenience, if you prefer: `018da313-2904-238b-b526-30902260bf9b`
+
+- [LethalThings](https://thunderstore.io/c/lethal-company/p/Evaisa/LethalThings/)
 - [HealthMetrics](https://thunderstore.io/c/lethal-company/p/matsuura/HealthMetrics/)
 - [FasterItemDropship](https://thunderstore.io/c/lethal-company/p/FlipMods/FasterItemDropship/)
 - [ReservedFlashlightSlot](https://thunderstore.io/c/lethal-company/p/FlipMods/ReservedFlashlightSlot/)
