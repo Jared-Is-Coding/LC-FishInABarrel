@@ -26,7 +26,7 @@ namespace FishInABarrel
 		private readonly Harmony harmony = new Harmony(ModGUID);
 
 		// Patch list
-		private static Type[] PatchList = new Type[]
+		private static readonly Type[] PatchList = new Type[]
 		{
 			typeof(HUDManagerPatch),
 			typeof(LoadNewLevelPatch),

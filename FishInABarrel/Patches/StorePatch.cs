@@ -9,7 +9,7 @@ namespace FishInABarrel.Patches
 		public static void OnLoaded(Scene scene, LoadSceneMode mode)
 		{
 			// Create the shotgun object
-			Item shotgunItem = Object.Instantiate(getItem("Shotgun"));
+			Item shotgunItem = Object.Instantiate(GetItem("Shotgun"));
 			shotgunItem.name = "Shotgun";
 			shotgunItem.isScrap = false;
 			shotgunItem.creditsWorth = 10;
@@ -25,7 +25,7 @@ namespace FishInABarrel.Patches
 			Items.RegisterShopItem(shotgunItem, null, null, shotgunTerminalNode, 10);
 		}
 
-		private static Item getItem(string Value)
+		private static Item GetItem(string Value)
 		{
 			Item[] array = Resources.FindObjectsOfTypeAll<Item>();
 

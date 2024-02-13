@@ -7,14 +7,14 @@ namespace FishInABarrel.Patches
 	{
 		[HarmonyPatch(typeof(ShotgunItem), "ItemActivate")]
 		[HarmonyPostfix]
-		public static void onItemActivate(ShotgunItem __instance)
+		public static void OnItemActivate(ShotgunItem __instance)
 		{
 			__instance.shellsLoaded = 999;
 		}
 
 		[HarmonyPatch(typeof(ShotgunItem), "ShootGun")]
 		[HarmonyPostfix]
-		public static void onShootGun(ShotgunItem __instance)
+		public static void OnShootGun(ShotgunItem __instance)
 		{
 			__instance.shellsLoaded = 999;
 		}

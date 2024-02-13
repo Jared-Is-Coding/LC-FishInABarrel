@@ -7,11 +7,10 @@ namespace FishInABarrel.Patches
 	{
 		[HarmonyPatch(typeof(TimeOfDay), "UpdateProfitQuotaCurrentTime")]
 		[HarmonyPostfix]
-		private static void onUpdateProfitQuotaCurrentTime()
+		private static void OnUpdateProfitQuotaCurrentTime()
 		{
 			TimeOfDay.Instance.timeUntilDeadline = (int)(TimeOfDay.Instance.totalTime * TimeOfDay.Instance.quotaVariables.deadlineDaysAmount);
 			StartOfRound.Instance.deadlineMonitorText.text = "DEADLINE:\n FISH";
-
 		}
 	}
 }

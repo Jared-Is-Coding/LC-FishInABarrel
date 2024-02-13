@@ -7,7 +7,7 @@ namespace FishInABarrel.Patches
 	{
 		[HarmonyPatch(typeof(RoundManager), "LoadNewLevel")]
 		[HarmonyPrefix]
-		private static bool onLoadNewLevel(ref SelectableLevel newLevel)
+		private static bool OnLoadNewLevel(ref SelectableLevel newLevel)
 		{
 			foreach (SpawnableEnemyWithRarity enemy in newLevel.Enemies)
 			{
