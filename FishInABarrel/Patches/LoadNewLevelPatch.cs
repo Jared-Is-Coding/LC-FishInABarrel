@@ -2,7 +2,7 @@
 
 namespace FishInABarrel.Patches
 {
-    [HarmonyPatch]
+	[HarmonyPatch]
 	internal class LoadNewLevelPatch
 	{
 		[HarmonyPatch(typeof(RoundManager), "LoadNewLevel")]

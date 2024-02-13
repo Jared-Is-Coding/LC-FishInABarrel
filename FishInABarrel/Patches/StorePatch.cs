@@ -4,13 +4,13 @@ using UnityEngine.SceneManagement;
 
 namespace FishInABarrel.Patches
 {
-    internal class StorePatch
+	internal class StorePatch
 	{
 		public static void OnLoaded(Scene scene, LoadSceneMode mode)
-        {
+		{
 			// Create the shotgun object
 			Item shotgunItem = Object.Instantiate(getItem("Shotgun"));
-            shotgunItem.name = "Shotgun";
+			shotgunItem.name = "Shotgun";
 			shotgunItem.isScrap = false;
 			shotgunItem.creditsWorth = 10;
 

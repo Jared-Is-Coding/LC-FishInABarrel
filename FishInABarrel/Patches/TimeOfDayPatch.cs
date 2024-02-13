@@ -2,7 +2,7 @@
 
 namespace FishInABarrel.Patches
 {
-    [HarmonyPatch]
+	[HarmonyPatch]
 	internal class TimeOfDayPatch
 	{
 		[HarmonyPatch(typeof(TimeOfDay), "UpdateProfitQuotaCurrentTime")]

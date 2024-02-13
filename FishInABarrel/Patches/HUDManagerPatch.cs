@@ -2,7 +2,7 @@
 
 namespace FishInABarrel.Patches
 {
-    [HarmonyPatch]
+	[HarmonyPatch]
 	internal class HUDManagerPatch
 	{
 		[HarmonyPrefix]
@@ -10,7 +10,7 @@ namespace FishInABarrel.Patches
 		private static bool onUpdate(ref HUDElement ___Clock)
 		{
 			___Clock.targetAlpha = 1f;
-            return true;
+			return true;
 		}
 
 		[HarmonyPatch(typeof(HUDManager), "DisplayDaysLeft")]

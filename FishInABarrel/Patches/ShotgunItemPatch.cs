@@ -2,7 +2,7 @@
 
 namespace FishInABarrel.Patches
 {
-    [HarmonyPatch]
+	[HarmonyPatch]
 	internal class ShotgunItemPatch
 	{
 		[HarmonyPatch(typeof(ShotgunItem), "ItemActivate")]
