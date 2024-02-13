@@ -2,17 +2,17 @@
 
 namespace FishInABarrel.Patches
 {
-	[HarmonyPatch]
+	[HarmonyPatch(typeof(ShotgunItem))]
 	internal class ShotgunItemPatch
 	{
-		[HarmonyPatch(typeof(ShotgunItem), "ItemActivate")]
+		[HarmonyPatch("ItemActivate")]
 		[HarmonyPostfix]
 		public static void OnItemActivate(ShotgunItem __instance)
 		{
 			__instance.shellsLoaded = 999;
 		}
 
-		[HarmonyPatch(typeof(ShotgunItem), "ShootGun")]
+		[HarmonyPatch("ShootGun")]
 		[HarmonyPostfix]
 		public static void OnShootGun(ShotgunItem __instance)
 		{

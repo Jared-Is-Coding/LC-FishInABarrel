@@ -2,10 +2,10 @@
 
 namespace FishInABarrel.Patches
 {
-	[HarmonyPatch]
+	[HarmonyPatch(typeof(ShipTeleporter))]
 	internal class InverseTeleporterPatch
 	{
-		[HarmonyPatch(typeof(ShipTeleporter), "Awake")]
+		[HarmonyPatch("Awake")]
 		[HarmonyPostfix]
 		private static void Awake(bool ___isInverseTeleporter, ref float ___cooldownAmount, ref float ___cooldownTime)
 		{

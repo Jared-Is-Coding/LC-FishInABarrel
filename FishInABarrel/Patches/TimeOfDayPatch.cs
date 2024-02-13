@@ -2,15 +2,15 @@
 
 namespace FishInABarrel.Patches
 {
-	[HarmonyPatch]
+	[HarmonyPatch(typeof(TimeOfDay))]
 	internal class TimeOfDayPatch
 	{
-		[HarmonyPatch(typeof(TimeOfDay), "UpdateProfitQuotaCurrentTime")]
+		[HarmonyPatch("UpdateProfitQuotaCurrentTime")]
 		[HarmonyPostfix]
 		private static void OnUpdateProfitQuotaCurrentTime()
 		{
 			TimeOfDay.Instance.timeUntilDeadline = (int)(TimeOfDay.Instance.totalTime * TimeOfDay.Instance.quotaVariables.deadlineDaysAmount);
-			StartOfRound.Instance.deadlineMonitorText.text = "DEADLINE:\n FISH";
+			StartOfRound.Instance.deadlineMonitorText.text = "LIKE FISH\n     IN A\n   BARREL";
 		}
 	}
 }

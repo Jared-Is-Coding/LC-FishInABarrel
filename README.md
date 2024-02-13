@@ -9,18 +9,22 @@ A Lethal Company mod for hide and seek! Remove enemies, infinite sprint, infinit
 - Order yourself a shotgun in the terminal and take on the role of the seeker. *It's like fish in a barrel!*
 - All interior enemies removed
 - Time of Day clock always visible
+- Inverse teleporter is on the ship at the beginning of the game
 - Remove inverse teleporter cooldown
+- Remove all facility enemies
+- Remove beehives
 - Infinite quota deadline
 - Infinite sprinting
 - Infinite shotgun ammo
+- Infinite flashlight battery
 
 ## Recommended Additional Mods
 
 Here's an r2modman profile code for your convenience, if you prefer: `018da345-218a-fd3a-d9f6-f2c8ec732b2f`
 
-- [LethalThings](https://thunderstore.io/c/lethal-company/p/Evaisa/LethalThings/) - Adds teleporters in the facility!
-- [FasterItemDropship](https://thunderstore.io/c/lethal-company/p/FlipMods/FasterItemDropship/) - Get your seeking shotgun faster!
 - [MoreCompany](https://thunderstore.io/c/lethal-company/p/notnotnotswipez/MoreCompany/) - Put more fish in the barrel!
+- [LethalThings](https://thunderstore.io/c/lethal-company/p/Evaisa/LethalThings/) - Add teleporters in the facility!
+- [FasterItemDropship](https://thunderstore.io/c/lethal-company/p/FlipMods/FasterItemDropship/) - Get your seeking shotgun faster!
 - [LateCompany](https://thunderstore.io/c/lethal-company/p/anormaltwig/LateCompany/) - Allow players to join late!
 - [LC FastStartup](https://thunderstore.io/c/lethal-company/p/flerouwu/LC_FastStartup/) - Quicker game launch!
 - [HideModList](https://thunderstore.io/c/lethal-company/p/Sv_Matt/HideModList/) - Hide that pesky mod list popup!

@@ -2,6 +2,12 @@
 
 Here's what I've been up to...
 
+## v1.0.3
+- Inverse teleporter is on the ship at the beginning of the game
+- Remove beehives
+- Infinite flashlight battery
+- Update README
+
 ## v1.0.2
 - Update README
 

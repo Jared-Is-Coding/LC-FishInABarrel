@@ -2,18 +2,18 @@
 
 namespace FishInABarrel.Patches
 {
-	[HarmonyPatch]
+	[HarmonyPatch(typeof(HUDManager))]
 	internal class HUDManagerPatch
 	{
 		[HarmonyPrefix]
-		[HarmonyPatch(typeof(HUDManager), "Update")]
+		[HarmonyPatch("Update")]
 		private static bool OnUpdate(ref HUDElement ___Clock)
 		{
 			___Clock.targetAlpha = 1f;
 			return true;
 		}
 
-		[HarmonyPatch(typeof(HUDManager), "DisplayDaysLeft")]
+		[HarmonyPatch("DisplayDaysLeft")]
 		[HarmonyPostfix]
 		public static void SetDisplayDaysLeft()
 		{

@@ -17,7 +17,7 @@ namespace FishInABarrel
 		// Base mod configuration 
 		private const string ModGUID = "jarediscoding.fishinabarrel";
 		private const string ModName = "FishInABarrel";
-		private const string ModVersion = "1.0.2"; // This should be bumped up for every release
+		private const string ModVersion = "1.0.3"; // This should be bumped up for every release
 
 		// Logging
 		public static ManualLogSource LogSource;
@@ -28,13 +28,16 @@ namespace FishInABarrel
 		// Patch list
 		private static readonly Type[] PatchList = new Type[]
 		{
-			typeof(HUDManagerPatch),
-			typeof(InverseTeleporterPatch),
-			typeof(LoadNewLevelPatch),
-			typeof(PlayerControllerPatch),
-			typeof(ShotgunItemPatch),
-			typeof(TerminalPatch),
-			typeof(TimeOfDayPatch)
+			typeof(FlashlightItemPatch), // Infinite battery
+			typeof(HUDManagerPatch), // Infinite quota days, always display clock
+			typeof(InverseTeleporterPatch), // Inverse teleporter cooldown
+			typeof(LoadNewLevelPatch), // Remove facility enemies
+			typeof(PlayerControllerPatch), // Infinite sprint
+			typeof(RedLocustBeesPatch), // Remove beehives
+			typeof(ShotgunItemPatch), // Infinite ammo
+			typeof(StartOfRoundPatch), // Spawn inverse teleporter on round start
+			typeof(TerminalPatch), // Infinite credits
+			typeof(TimeOfDayPatch) // Infinite quota days
 		};
 
 		void Awake()
@@ -49,21 +52,27 @@ namespace FishInABarrel
 			LogSource = BepInEx.Logging.Logger.CreateLogSource(ModGUID);
 
 			// -------------------------------------------------------- //
-			// Initialize patches
+			// Harmony patches
 			// -------------------------------------------------------- //
 
-			// Harmony patches
 			foreach (Type thisType in PatchList)
 			{
 				harmony.PatchAll(thisType);
-
 				LogSource.LogDebug($"{thisType} complete");
 			}
 
-			// Load shotgun to store
-			SceneManager.sceneLoaded += StorePatch.OnLoaded;
+			// -------------------------------------------------------- //
+			// Add shotgun to store
+			// -------------------------------------------------------- //
 
+			SceneManager.sceneLoaded += StorePatch.OnLoaded;
 			LogSource.LogDebug($"FishInABarrel.Patches.StorePatch complete");
+
+			// -------------------------------------------------------- //
+			// Inverse teleporter on load
+			// -------------------------------------------------------- //
+
+			
 
 			// -------------------------------------------------------- //
 			// NetcodePatcher

@@ -2,10 +2,10 @@
 
 namespace FishInABarrel.Patches
 {
-	[HarmonyPatch]
+	[HarmonyPatch(typeof(RoundManager))]
 	internal class LoadNewLevelPatch
 	{
-		[HarmonyPatch(typeof(RoundManager), "LoadNewLevel")]
+		[HarmonyPatch("LoadNewLevel")]
 		[HarmonyPrefix]
 		private static bool OnLoadNewLevel(ref SelectableLevel newLevel)
 		{
