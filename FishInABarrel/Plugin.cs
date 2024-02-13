@@ -17,7 +17,7 @@ namespace FishInABarrel
 		// Base mod configuration 
 		private const string ModGUID = "jarediscoding.fishinabarrel";
 		private const string ModName = "FishInABarrel";
-		private const string ModVersion = "1.0.1"; // This should be bumped up for every release
+		private const string ModVersion = "1.0.2"; // This should be bumped up for every release
 
 		// Logging
 		public static ManualLogSource LogSource;

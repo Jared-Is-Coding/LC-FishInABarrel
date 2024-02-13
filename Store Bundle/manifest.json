@@ -1,6 +1,6 @@
 {
 	"name": "FishInABarrel",
-	"version_number": "1.0.1",
+	"version_number": "1.0.2",
 	"description": "A Lethal Company mod to play hide and seek! Remove enemies, infinite sprint, infinite ammo, clock display, and more.",
 	"website_url": "https://github.com/Jared-Is-Coding/FishInABarrel",
 	"dependencies": [
