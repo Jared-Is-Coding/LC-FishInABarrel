@@ -28,7 +28,7 @@ Here's an r2modman profile code for your convenience, if you prefer: `018da313-2
 
 ### Hiders
 - Hiders are given until 10am to hide *within* the facility
-- Hiders must enter through the main entrance or reverse teleporter
+- Hiders must enter through the main entrance or inverse teleporter
 - Hiders may not exit the building after entering
 - Hiders may not use flashlights
 - Hiders may tinker with the facility by disabling light panels or removing the apparatus
