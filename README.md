@@ -27,6 +27,7 @@ A Lethal Company mod for hide and seek! Remove enemies, infinite sprint, infinit
 - Hiders may not exit the building after entering
 - Hiders may not use flashlights
 - Hiders may tinker with the facility by disabling light panels or removing the apparatus
+- Hiders may use keys
 
 ### Seeker(s)
 - Seekers may not enter the facility until 10am
