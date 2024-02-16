@@ -20,7 +20,7 @@ A Lethal Company mod for hide and seek! Remove enemies, infinite sprint, infinit
 
 ## Recommended Additional Mods
 
-Here's an r2modman profile code for your convenience, if you prefer: `018da345-218a-fd3a-d9f6-f2c8ec732b2f`
+Here's an r2modman profile code for your convenience, if you prefer: `018db432-cbc3-66ed-b54d-b39183a309c2`
 
 - [MoreCompany](https://thunderstore.io/c/lethal-company/p/notnotnotswipez/MoreCompany/) - Put more fish in the barrel!
 - [LethalThings](https://thunderstore.io/c/lethal-company/p/Evaisa/LethalThings/) - Add teleporters in the facility!
@@ -28,6 +28,7 @@ Here's an r2modman profile code for your convenience, if you prefer: `018da345-2
 - [LateCompany](https://thunderstore.io/c/lethal-company/p/anormaltwig/LateCompany/) - Allow players to join late!
 - [LC FastStartup](https://thunderstore.io/c/lethal-company/p/flerouwu/LC_FastStartup/) - Quicker game launch!
 - [HideModList](https://thunderstore.io/c/lethal-company/p/Sv_Matt/HideModList/) - Hide that pesky mod list popup!
+- [LCLightsStartOffMod](hthttps://thunderstore.io/c/lethal-company/p/joejoejoe/LCLightsStartOffMod/) - Hide n Seek is better in the dark!
 
 ## Suggested Hide N Seek Rules
 
