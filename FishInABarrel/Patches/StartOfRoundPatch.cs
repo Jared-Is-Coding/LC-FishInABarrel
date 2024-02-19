@@ -4,6 +4,9 @@ using System.Reflection;
 
 namespace FishInABarrel.Patches
 {
+    /// <summary>
+    /// Inverse teleporter is on the ship at the beginning of the game
+    /// </summary>
     [HarmonyPatch(typeof(StartOfRound))]
     internal class StartOfRoundPatch
     {
@@ -14,7 +17,7 @@ namespace FishInABarrel.Patches
 
         [HarmonyPatch("SetDiscordStatusDetails")]
         [HarmonyPostfix]
-        private static void OnUpdate(ref StartOfRound __instance)
+        private static void PostUpdate(ref StartOfRound __instance)
         {
             if (isLoaded) return;
             if (!__instance.IsHost) return;

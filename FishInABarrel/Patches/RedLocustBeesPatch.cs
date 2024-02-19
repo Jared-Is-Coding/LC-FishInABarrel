@@ -3,12 +3,15 @@ using UnityEngine;
 
 namespace FishInABarrel.Patches
 {
+	/// <summary>
+	/// Remove beehives
+	/// </summary>
 	[HarmonyPatch(typeof(RedLocustBees))]
 	internal class RedLocustBeesPatch
 	{
 		[HarmonyPatch("Update")]
 		[HarmonyPostfix]
-		private static void OnUpdate()
+		private static void PostUpdate()
 		{
 			if (GameNetworkManager.Instance.isHostingGame)
 			{

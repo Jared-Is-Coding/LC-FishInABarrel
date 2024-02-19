@@ -10,6 +10,8 @@ A Lethal Company mod for hide and seek! Remove enemies, infinite sprint, infinit
 - Order yourself a shotgun in the terminal and take on the role of the seeker. *It's like shooting fish in a barrel!*
 - Time of Day clock always visible
 - Inverse teleporter is on the ship at the beginning of the game
+- Inverse teleporter does not remove player inventory
+- Keys are not removed from inventory after use
 - Remove inverse teleporter cooldown
 - Remove all facility enemies
 - Remove beehives
@@ -17,10 +19,11 @@ A Lethal Company mod for hide and seek! Remove enemies, infinite sprint, infinit
 - Infinite sprinting
 - Infinite shotgun ammo
 - Infinite flashlight battery
+- Infinite boombox battery
 
 ## Recommended Additional Mods
 
-Here's an r2modman profile code for your convenience, if you prefer: `018db432-cbc3-66ed-b54d-b39183a309c2`
+Here's an r2modman profile code for your convenience, if you prefer: `018dbfd5-6872-af70-d793-35176a6c32f1`
 
 - [MoreCompany](https://thunderstore.io/c/lethal-company/p/notnotnotswipez/MoreCompany/) - Put more fish in the barrel!
 - [LethalThings](https://thunderstore.io/c/lethal-company/p/Evaisa/LethalThings/) - Add teleporters in the facility!
@@ -28,7 +31,8 @@ Here's an r2modman profile code for your convenience, if you prefer: `018db432-c
 - [LateCompany](https://thunderstore.io/c/lethal-company/p/anormaltwig/LateCompany/) - Allow players to join late!
 - [LC FastStartup](https://thunderstore.io/c/lethal-company/p/flerouwu/LC_FastStartup/) - Quicker game launch!
 - [HideModList](https://thunderstore.io/c/lethal-company/p/Sv_Matt/HideModList/) - Hide that pesky mod list popup!
-- [LCLightsStartOffMod](hthttps://thunderstore.io/c/lethal-company/p/joejoejoe/LCLightsStartOffMod/) - Hide n Seek is better in the dark!
+- [LCLightsStartOffMod](https://thunderstore.io/c/lethal-company/p/joejoejoe/LCLightsStartOffMod/) - Hide n Seek is better in the dark!
+- [AdditionalSuits](https://thunderstore.io/c/lethal-company/p/AlexCodesGames/AdditionalSuits/) - Play with teams, or just darker suits!
 
 ## Suggested Hide N Seek Rules
 
@@ -56,3 +60,4 @@ Here's an r2modman profile code for your convenience, if you prefer: `018db432-c
 
 - Add built in points tracking
 - Add overlay for points display
+- Allow configuration of mod adjustments in settings menu

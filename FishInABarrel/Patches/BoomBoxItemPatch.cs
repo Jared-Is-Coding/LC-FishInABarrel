@@ -3,10 +3,10 @@
 namespace FishInABarrel.Patches
 {
 	/// <summary>
-	/// Infinite flashlight battery
+	/// Infinite boombox battery
 	/// </summary>
-	[HarmonyPatch(typeof(FlashlightItem))]
-	internal class FlashlightItemPatch
+	[HarmonyPatch(typeof(BoomboxItem))]
+	internal class BoomBoxItemPatch
 	{
 		[HarmonyPatch("Start")]
 		[HarmonyPostfix]

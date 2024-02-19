@@ -17,7 +17,7 @@ namespace FishInABarrel
 		// Base mod configuration 
 		private const string ModGUID = "jarediscoding.fishinabarrel";
 		private const string ModName = "FishInABarrel";
-		private const string ModVersion = "1.0.3"; // This should be bumped up for every release
+		private const string ModVersion = "1.0.4"; // This should be bumped up for every release
 
 		// Logging
 		public static ManualLogSource LogSource;
@@ -28,16 +28,18 @@ namespace FishInABarrel
 		// Patch list
 		private static readonly Type[] PatchList = new Type[]
 		{
-			typeof(FlashlightItemPatch), // Infinite battery
-			typeof(HUDManagerPatch), // Infinite quota days, always display clock
-			typeof(InverseTeleporterPatch), // Inverse teleporter cooldown
-			typeof(LoadNewLevelPatch), // Remove facility enemies
-			typeof(PlayerControllerPatch), // Infinite sprint
-			typeof(RedLocustBeesPatch), // Remove beehives
-			typeof(ShotgunItemPatch), // Infinite ammo
-			typeof(StartOfRoundPatch), // Spawn inverse teleporter on round start
-			typeof(TerminalPatch), // Infinite credits
-			typeof(TimeOfDayPatch) // Infinite quota days
+			typeof(BlobAIPatch),
+			typeof(BoomBoxItemPatch),
+			typeof(FlashlightItemPatch),
+			typeof(HUDManagerPatch),
+			typeof(PlayerControllerBPatch),
+			typeof(RedLocustBeesPatch),
+			typeof(RoundManagerPatch),
+			typeof(ShipTeleporterPatch),
+			typeof(ShotgunItemPatch),
+			typeof(StartOfRoundPatch),
+			typeof(TerminalPatch),
+			typeof(TimeOfDayPatch)
 		};
 
 		void Awake()
@@ -67,12 +69,6 @@ namespace FishInABarrel
 
 			SceneManager.sceneLoaded += StorePatch.OnLoaded;
 			LogSource.LogDebug($"FishInABarrel.Patches.StorePatch complete");
-
-			// -------------------------------------------------------- //
-			// Inverse teleporter on load
-			// -------------------------------------------------------- //
-
-			
 
 			// -------------------------------------------------------- //
 			// NetcodePatcher

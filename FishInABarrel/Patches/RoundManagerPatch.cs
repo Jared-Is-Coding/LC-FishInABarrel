@@ -2,12 +2,15 @@
 
 namespace FishInABarrel.Patches
 {
+	/// <summary>
+	/// Remove all facility enemies
+	/// </summary>
 	[HarmonyPatch(typeof(RoundManager))]
-	internal class LoadNewLevelPatch
+	internal class RoundManagerPatch
 	{
-		[HarmonyPatch("LoadNewLevel")]
 		[HarmonyPrefix]
-		private static bool OnLoadNewLevel(ref SelectableLevel newLevel)
+		[HarmonyPatch("LoadNewLevel")]
+		private static bool PreLoadNewLevel(ref SelectableLevel newLevel)
 		{
 			foreach (SpawnableEnemyWithRarity enemy in newLevel.Enemies)
 			{
